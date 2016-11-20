@@ -3422,15 +3422,24 @@ section[class*="_section"] div[class*="_section"] .body-bg_section a i {
   text-align: justify;
   visibility: hidden;
 }
-.entry:hover .entry_title {
-  visibility: hidden;
-  -webkit-animation: fadeInUp .4s;
-  animation: fadeInUp .4s;
+
+.entry:hover .entry_img {
+  transition: 1s;
+  opacity: 0.3;
 }
+
+.entry:hover .entry_title {
+  visibility: visible;
+ position: absolute;
+ margin-bottom: 400px;
+  -webkit-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
+}
+
 .entry:hover .entry_paragraph {
   visibility: visible;
-  -webkit-animation: fadeInUp .4s;
-  animation: fadeInUp .4s;
+  -webkit-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
 }
 .primary_section.entry a .entry_text {
   color: #fdfdfd;
