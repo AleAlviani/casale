@@ -77,7 +77,7 @@
 
       if ( mapElement !== null ){
 
-        var myLatlng   = new google.maps.LatLng( 42.8213775,12.9120425 );       
+        var myLatlng   = new google.maps.LatLng( 42.5024267,12.0186709 );       
         var mapOptions = {
           zoom                     : map.zoom,
           scrollwheel              : map.scrollWheel,                    
