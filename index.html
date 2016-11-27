@@ -50,9 +50,28 @@
               <nav class="primary_nav">
                 <ul class="nav">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="sistemazioni.html">Sistemazioni</a></li>
+                  <li><a href="index.html">Chi siamo</a></li>
+
+                    <li>
+                      <div class="dropdown">
+                       <a id="dLabel" data-toggle="dropdown" data-target="#" href="sistemazioni.html" role="button" aria-haspopup="true" aria-expanded="false">Casale</a>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="index.html" style="margin-bottom: 0px">Casale piccolo</a> <li>
+                            <li><a href="index.html">Casale grande</a></li>
+                      </ul> 
+                      </div>
+                    </li>
+
                   <li><a href="location.html">Location</a></li>
-                  <li><a href="index-restaurant.html">Ristorante</a></li>
+                  <li>
+                      <div class="dropdown">
+                       <a id="dLabel" data-toggle="dropdown" data-target="#" href="sistemazioni.html" role="button" aria-haspopup="true" aria-expanded="false">Servizi</a>
+                      <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="index.html" style="margin-bottom: 0px" >Corsi di cucina</a> <li>
+                            <li><a href="index.html">Vendita prodotti</a></li>
+                      </ul> 
+                      </div>
+                    </li>
                   <li><a href="gallery.html">Gallery</a></li>
                   <li><a href="contact.html">Contatti</a></li>
                 </ul>
@@ -378,6 +397,8 @@ Visitate durante la vostra permanenza i paesi di Pitigliano e Sorano, le terme d
     </div>
     <!-- ==================== SCRIPTS | CONFIG ====================-->
     <script type="text/javascript" src="./assets/js/config.js" data-module="main-configuration"></script>
+     <!-- ==================== SCRIPTS | DROPDOWN ====================-->
+         <script type="text/javascript" src="./assets/js/dropdown.js"></script>
     <!-- ==================== SCRIPTS | GLOBAL ====================-->
     <script type="text/javascript" src="./assets/js/libs/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="./assets/js/libs/bootstrap.js"></script>
