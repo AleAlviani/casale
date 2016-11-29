@@ -1318,7 +1318,7 @@ fieldset[disabled] .btn-danger {
 }
 .btn-black {
   background-image: none;
-  background-color: transparent;
+  background-color: #333333;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -1328,7 +1328,7 @@ fieldset[disabled] .btn-danger {
   line-height: 1.5;
   border-radius: 0;
   border: 1px #000000 solid;
-  color: #000000 !important;
+  color: #ffffff !important;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -1352,7 +1352,7 @@ fieldset[disabled] .btn-danger {
 }
 .btn-black:hover,
 .btn-black:focus {
-  color: #333333;
+  color: #e6ffe6  ;
   text-decoration: none;
 }
 .btn-black:active,
@@ -1376,7 +1376,8 @@ fieldset[disabled] .btn-black {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000000;
+  background: #e6ffe6;
+  color: #000000;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -1391,7 +1392,7 @@ fieldset[disabled] .btn-black {
 .btn-black:hover,
 .btn-black:focus,
 .btn-black:active {
-  color: #fdfdfd !important;
+  color: #000000  !important;
 }
 .btn-black:hover:before,
 .btn-black:focus:before,
@@ -9432,10 +9433,6 @@ border-top: 1px #d3d3d3 solid;
 .dropdown-menu li {
  display:block;
  float: left;
-}
-
-.dropdown-menu li a {
-  margin-bottom: 0px;
 }
 
 
