@@ -79,11 +79,11 @@
 
         var myLatlng   = new google.maps.LatLng( 42.5024267,12.0186709 );       
         var mapOptions = {
-          zoom                     : map.zoom,
+          zoom                     : 12,
           scrollwheel              : map.scrollWheel,                    
           disableDefaultUI         : map.disableDefaultUI,
           center                   : myLatlng,
-          mapTypeId                : "satellite",
+          mapTypeId                : google.maps.MapTypeId[map.type],
           styles                   : map.styles,
           mapTypeControl           : map.type_switch,            
           mapTypeControlOptions    : {
